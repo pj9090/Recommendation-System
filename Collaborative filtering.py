@@ -40,7 +40,7 @@ Y=dataset['Y'] # movie ratings
 #param=scipy.io.loadmat('C:/Users/prasun.j/Desktop/ng/collab filter param.mat')
 num_features=10 # no of features
 iterations=400 # 100 will also works
-movieList = open("C:/Users/prasun.j/Dropbox/ng/ng0/collab_movie_ids.txt","r").read().split("\n")[:-1]
+movieList = open("collab_movie_ids.txt", "r", encoding="ISO-8859-1").read().split("\n")[:-1]
 my_ratings = np.zeros((1682,1)) # Create own ratings
 my_ratings[0] = 4 
 my_ratings[97] = 2

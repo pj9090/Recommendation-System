@@ -34,7 +34,7 @@ def gradient_descent(X,theta,Y,R,iterations,alpha,Lambda):
     return X,theta,j_history
 
 # Inputs
-dataset=scipy.io.loadmat('C:/Users/prasun.j/Dropbox/ng/ng0/collaborative fitering-movies.mat')
+dataset=scipy.io.loadmat('collaborative fitering-movies.mat')
 R=dataset['R'] # indicators if i user has given rating to j movie
 Y=dataset['Y'] # movie ratings
 #param=scipy.io.loadmat('C:/Users/prasun.j/Desktop/ng/collab filter param.mat')
